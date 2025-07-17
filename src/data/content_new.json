@@ -1,0 +1,206 @@
+{
+  "personal": {
+    "name": "Guduru Dinesh",
+    "title": "Software Engineer & AI Researcher",
+    "bio": "Computer Science student at RVCE with expertise in AI/ML, enterprise architecture, and full-stack development. Published researcher and Smart India Hackathon winner.",
+    "location": "Bangalore, India",
+    "email": "gudurudinesh.cd22@rvce.edu.in",
+    "phone": "+91-8309301256",
+    "linkedin": "https://linkedin.com/in/Dinesh052",
+    "github": "https://github.com/Dinesh052/"
+  },
+  "skills": {
+    "programming": [
+      { "name": "Python", "level": 95 },
+      { "name": "Java", "level": 90 },
+      { "name": "C++", "level": 85 },
+      { "name": "SQL", "level": 80 },
+      { "name": "HTML/CSS", "level": 85 },
+      { "name": "MATLAB", "level": 75 },
+      { "name": "R", "level": 70 }
+    ],
+    "datascience": [
+      { "name": "TensorFlow", "level": 90 },
+      { "name": "OpenCV", "level": 85 },
+      { "name": "NumPy", "level": 90 },
+      { "name": "Pandas", "level": 85 },
+      { "name": "YOLO", "level": 80 },
+      { "name": "RT-DETR", "level": 75 },
+      { "name": "MCP Agents", "level": 70 }
+    ],
+    "tools": [
+      { "name": "Git", "level": 90 },
+      { "name": "Docker", "level": 75 },
+      { "name": "AWS", "level": 80 },
+      { "name": "Spring Boot", "level": 85 },
+      { "name": "Unreal Engine", "level": 75 },
+      { "name": "AirSim", "level": 70 },
+      { "name": "MySQL", "level": 80 }
+    ],
+    "soft": [
+      { "name": "Research & Analysis" },
+      { "name": "Team Leadership" },
+      { "name": "Project Management" },
+      { "name": "Technical Writing" }
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Walmart Global Tech",
+      "position": "Software Engineer Intern",
+      "duration": "May 2025 - Present",
+      "location": "Bangalore, India",
+      "achievements": [
+        "Working on internal Chainlit-based MCP tool for order line debugging",
+        "Developing REST APIs using Java Spring Boot and Python",
+        "Integrating MCP agent system with Slack for enhanced developer experience",
+        "Building backend enhancements for order data interaction via Slack and Chainlit"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Women in Cloud, Center of Excellence",
+      "position": "Intern",
+      "duration": "Nov 2023 - Jan 2024",
+      "location": "Bangalore, India",
+      "achievements": [
+        "Developed and deployed full-stack web applications",
+        "Utilized modern cloud technologies for scalable solutions"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "R.V College of Engineering",
+      "position": "Placement Coordinator",
+      "duration": "Aug 2024 - Present",
+      "location": "Bangalore, India",
+      "achievements": [
+        "Coordinating placement activities for 500+ students",
+        "Managing corporate relationships and recruitment drives",
+        "Organizing skill development workshops and training sessions"
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Entrepreneurship Cell, RVCE",
+      "position": "Senior Associate",
+      "duration": "Dec 2022 - July 2024",
+      "location": "Bangalore, India",
+      "achievements": [
+        "Organized events with 4000+ footfall",
+        "Managed corporate partnerships and sponsorships",
+        "Led team coordination and event management"
+      ]
+    },
+    {
+      "id": 5,
+      "company": "ACM India Chapter",
+      "position": "Member",
+      "duration": "Aug 2024 - Present",
+      "location": "Bangalore, India",
+      "achievements": [
+        "Active participation in technical workshops and seminars",
+        "Contributing to research and development initiatives"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "GovBuild: No-Code Service Builder",
+      "description": "Enterprise architecture for GovTech using TOGAF ADM phases, enabling rapid development of digital public services",
+      "tech": ["TOGAF", "Enterprise Architecture", "AI Integration", "Government APIs"],
+      "duration": "Apr 2025 - Jun 2025",
+      "mentor": "Laurence Berry (Komo, UK)",
+      "github": "https://github.com/Dinesh052/govbuild"
+    },
+    {
+      "id": 2,
+      "title": "Swarm Drones in SAR Operations",
+      "description": "Smart India Hackathon 2024 Winner - AI-powered drone system for search and rescue with 3D terrain mapping",
+      "tech": ["Computer Vision", "Transformers", "Jetson", "Unreal Engine", "AirSim"],
+      "duration": "July 2024 - Dec 2024",
+      "achievement": "All India First Place - Smart India Hackathon 2024",
+      "github": "https://github.com/Dinesh052/sar-drones"
+    },
+    {
+      "id": 3,
+      "title": "Study Chatbot using Palm API",
+      "description": "AI-powered educational chatbot with personalized learning capabilities and user research validation",
+      "tech": ["Palm API", "Natural Language Processing", "User Research", "AI/ML"],
+      "duration": "Feb 2024 - Apr 2024",
+      "github": "https://github.com/Dinesh052/study-chatbot"
+    },
+    {
+      "id": 4,
+      "title": "Brain Tumor Detection",
+      "description": "CNN-based model for automated brain tumor detection with secure Flask web interface",
+      "tech": ["TensorFlow", "CNN", "Flask", "Medical Imaging", "Computer Vision"],
+      "duration": "Jul 2023 - Sept 2023",
+      "github": "https://github.com/Dinesh052/brain-tumor-detection"
+    },
+    {
+      "id": 5,
+      "title": "Surface Crack Detection System",
+      "description": "Computer vision system for infrastructure crack detection with automated notification system",
+      "tech": ["OpenCV", "Computer Vision", "Image Processing", "Automation"],
+      "duration": "July 2023 - Sept 2023",
+      "github": "https://github.com/Dinesh052/crack-detection"
+    }
+  ],
+  "education": {
+    "degree": "B.E - Computer Science and Engineering (Data Science)",
+    "university": "R.V College of Engineering",
+    "duration": "Dec 2022 - Present",
+    "location": "Bangalore, India",
+    "gpa": "8.11/10 (current)",
+    "achievements": [
+      "All India Rank 1149 in COMEDK entrance examination (2022)"
+    ],
+    "previous": {
+      "degree": "Intermediate Education",
+      "institution": "Bhashyam Junior College",
+      "duration": "2020 - 2022",
+      "location": "Guntur, Andhra Pradesh",
+      "percentage": "90.4%"
+    }
+  },
+  "publications": [
+    {
+      "title": "Limitations of Large Language Models",
+      "conference": "IEEE International Conference on Computational System and Information Technology",
+      "date": "February 2024",
+      "doi": "10.1109/CSITSS64042.2024.10817070",
+      "description": "Research analyzing critical vulnerabilities in LLMs, focusing on hallucinations, biases, and adversarial attacks with proposed mitigation strategies"
+    }
+  ],
+  "positions": [
+    {
+      "title": "Placement Coordinator",
+      "organization": "Placement Department, RVCE",
+      "duration": "Aug 2024 - Present",
+      "location": "Bangalore, India"
+    },
+    {
+      "title": "Member",
+      "organization": "ACM India Chapter",
+      "duration": "Aug 2024 - Present",
+      "location": "Bangalore, India"
+    }
+  ],
+  "doodles": [
+    { "type": "arrow", "content": "→", "class": "doodle-arrow" },
+    { "type": "curved-arrow", "content": "↗", "class": "doodle-curved" },
+    { "type": "dotted-line", "content": "⋯⋯⋯", "class": "doodle-dots" },
+    { "type": "underline", "content": "___", "class": "doodle-underline" },
+    { "type": "circle", "content": "○", "class": "doodle-circle" },
+    { "type": "cross", "content": "✗", "class": "doodle-cross" },
+    { "type": "check", "content": "✓", "class": "doodle-check" },
+    { "type": "star", "content": "★", "class": "doodle-star" }
+  ],
+  "stickers": [
+    { "emoji": "⭐", "rotation": "-10deg" },
+    { "emoji": "○", "rotation": "15deg" }
+  ]
+}
