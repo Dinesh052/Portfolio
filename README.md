@@ -112,13 +112,4 @@ The portfolio contains information about:
 
 Feel free to fork this project and customize it for your own portfolio needs. The design system is modular and easy to modify.
 
-## 📞 Contact
-
-**Dinesh Guduru**
-- Email: gudurudinesh.cd22@rvce.edu.in
-- LinkedIn: [dinesh-guduru-b332b2264](https://linkedin.com/in/dinesh-guduru-b332b2264/)
-- GitHub: [Dinesh052](https://github.com/Dinesh052/)
-
----
-
-Built with ❤️ using React and modern web technologies.
+Built using React and modern web technologies.
