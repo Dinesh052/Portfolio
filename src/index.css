@@ -1,5 +1,5 @@
 /* iPad Notes Handwritten Aesthetic */
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Architects+Daughter&family=Indie+Flower&family=Shadows+Into+Light&family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Architects+Daughter&family=Source+Sans+Pro:wght@400;600&family=Shadows+Into+Light&family=Amatic+SC:wght@400;700&display=swap');
 
 :root {
   /* Authentic Crumpled Paper Colors */
@@ -49,12 +49,10 @@ body {
     radial-gradient(circle at 20% 80%, rgba(139, 111, 71, 0.03) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(212, 196, 168, 0.04) 0%, transparent 50%),
     linear-gradient(135deg, var(--paper-aged) 0%, var(--paper-brown) 100%);
-  height: 100vh;
-  font-size: 18px;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* Prevent body scrollbar */
+}
+
+.page-content {
+  min-height: 100vh;
 }
 
 /* A4-sized paper container with realistic crumples and tears */
@@ -254,9 +252,13 @@ body {
   z-index: 5;
   padding: 2rem;
   min-height: 80vh;
+  min-height: 100vh;
+  scroll-snap-type: y proximity;
 }
 
 .section {
+  scroll-margin-top: 80px;
+  scroll-snap-align: start;
   margin-bottom: 3rem;
   position: relative;
 }
@@ -280,6 +282,16 @@ body {
   height: 3px;
   background: var(--ink-medium);
   opacity: 0.3;
+}
+
+.section-title.center-no-underline {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title.center-no-underline::after {
+  display: none;
 }
 
 /* Sticky note style cards */
@@ -555,7 +567,7 @@ body {
 
 .project-link {
   background: var(--ink-blue);
-  color: white;
+  color: var(--ink-dark);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   text-decoration: none;
@@ -567,6 +579,7 @@ body {
 .project-link:hover {
   transform: rotate(0deg) scale(1.05);
   background: var(--ink-green);
+  color: var(--ink-medium);
 }
 
 /* SVG icon styling for visibility */
@@ -735,7 +748,7 @@ svg {
 
 .doi-link {
   background: var(--ink-blue);
-  color: white;
+  color: var(--ink-dark);
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   text-decoration: none;

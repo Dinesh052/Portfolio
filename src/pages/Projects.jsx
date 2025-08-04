@@ -34,11 +34,11 @@ const Projects = () => {
       <StickyNote 
         color="green" 
         rotation="-2deg" 
-        bottom="20%" 
+        top="5%" 
         right="7%" 
-        width="170px"
+        width="220px"
       >
-        GitHub repos available
+        Links coming soon! Website work in progress 😅
       </StickyNote>
 
       <section className="section">

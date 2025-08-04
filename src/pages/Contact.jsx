@@ -43,12 +43,13 @@ const Contact = () => {
 
       <section className="section">
         <motion.h2 
-          className="section-title"
+          className="section-title center-no-underline"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
+          style={{ textAlign: 'center', display: 'block', width: '100%' }}
         >
-          Let's Connect! 📞
+          Let's Connect!
         </motion.h2>
 
         <motion.div 
@@ -58,86 +59,31 @@ const Contact = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto' }}
         >
-          <h3 style={{ 
-            fontFamily: 'Amatic SC, cursive', 
-            fontSize: '2rem', 
-            marginBottom: '1rem',
-            transform: 'rotate(-1deg)'
-          }}>
-            Get In Touch
-          </h3>
-          
-          <p style={{ 
-            fontFamily: 'Kalam, cursive', 
-            fontSize: '1.1rem', 
-            marginBottom: '2rem',
-            color: 'var(--ink-black)'
-          }}>
-            I'm always excited to discuss new opportunities, innovative projects, 
-            or just have a chat about technology and AI! Feel free to reach out.
+          <h3 style={{
+            fontFamily: 'Amatic SC, cursive',
+            fontSize: '2rem',
+            marginBottom: '1.5rem',
+            color: 'var(--ink-dark)'
+          }}>Contact Details</h3>
+          <div className="contact-links" style={{ justifyContent: 'center', marginBottom: '1.5rem' }}>
+            <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className="contact-link">
+              <Linkedin size={22}/> LinkedIn
+            </a>
+            <a href={personal.github} target="_blank" rel="noopener noreferrer" className="contact-link">
+              <Github size={22}/> GitHub
+            </a>
+            <a href={personal.resume} target="_blank" rel="noopener noreferrer" className="contact-link" style={{ background: 'var(--sticky-green)', color: 'var(--ink-dark)' }}>
+              <MapPin size={22}/> View Resume
+            </a>
+          </div>
+          <div style={{ marginTop: '1.5rem', fontSize: '1.1rem', color: 'var(--ink-dark)' }}>
+            {personal.email}<br/>
+            {personal.phone}<br/>
+            Bangalore, India
+          </div>
+          <p style={{ marginTop: '2rem', fontSize: '1.1rem', color: '#4a3b2f' }}>
+            I'm always excited to discuss new opportunities, innovative projects, or just have a chat about technology and AI! Feel free to reach out.
           </p>
-
-          <div className="contact-links" style={{ justifyContent: 'center' }}>
-            <motion.a 
-              href={`mailto:${personal.email}`} 
-              className="contact-link"
-              whileHover={{ scale: 1.05, rotate: 0 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Mail size={20} />
-              <span>Email Me</span>
-            </motion.a>
-            
-            <motion.a 
-              href={`tel:${personal.phone}`} 
-              className="contact-link"
-              whileHover={{ scale: 1.05, rotate: 0 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Phone size={20} />
-              <span>Call Me</span>
-            </motion.a>
-            
-            <motion.a 
-              href={personal.linkedin} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="contact-link"
-              whileHover={{ scale: 1.05, rotate: 0 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Linkedin size={20} />
-              <span>LinkedIn</span>
-            </motion.a>
-            
-            <motion.a 
-              href={personal.github} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="contact-link"
-              whileHover={{ scale: 1.05, rotate: 0 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Github size={20} />
-              <span>GitHub</span>
-            </motion.a>
-          </div>
-
-          <div style={{ 
-            marginTop: '2rem', 
-            padding: '1rem',
-            background: 'var(--highlighter-yellow)',
-            borderRadius: '15px',
-            border: '2px dashed var(--ink-orange)',
-            transform: 'rotate(1deg)'
-          }}>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
-              <MapPin size={20} color="var(--ink-black)" />
-              <span style={{ fontWeight: 'bold', color: 'var(--ink-black)' }}>
-                {personal.location}
-              </span>
-            </div>
-          </div>
         </motion.div>
 
         {/* Fun contact methods */}
@@ -155,7 +101,7 @@ const Contact = () => {
             color: 'var(--ink-blue)',
             textAlign: 'center'
           }}>
-            Let's grab a coffee and talk tech! ☕
+            Let's grab a coffee and talk tech!
           </h3>
           
           <p style={{ 

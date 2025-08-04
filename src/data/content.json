@@ -2,12 +2,14 @@
   "personal": {
     "name": "Guduru Dinesh",
     "title": "Software Engineer & AI Researcher",
-    "bio": "Computer Science student at RVCE with expertise in AI/ML, enterprise architecture, and full-stack development. Published researcher and Smart India Hackathon winner.",
+    "bio": "Computer Science student at RVCE with expertise in AI/ML, enterprise architecture, and full-stack development.",
     "location": "Bangalore, India",
     "email": "gudurudinesh.cd22@rvce.edu.in",
     "phone": "+91-8309301256",
-    "linkedin": "https://linkedin.com/in/Dinesh052",
-    "github": "https://github.com/Dinesh052/"
+    "linkedin": "https://linkedin.com/in/dinesh052",
+    "github": "https://github.com/dinesh052",
+    "resume": "https://drive.google.com/your-resume-link-here",
+    "homepage": "https://dinesh052.github.io/portfolio"
   },
   "skills": {
     "programming": [
@@ -52,10 +54,10 @@
       "duration": "May 2025 - Present",
       "location": "Bangalore, India",
       "achievements": [
-        "Working on internal Chainlit-based MCP tool for order line debugging",
-        "Developing REST APIs using Java Spring Boot and Python",
-        "Integrating MCP agent system with Slack for enhanced developer experience",
-        "Building backend enhancements for order data interaction via Slack and Chainlit"
+        "Developed Chainlit-based MCP tool for order debugging, reducing debug time by through REST API integration with Java Spring Boot and Python",
+        "Migrated legacy CCM tools for configuration comparisons, achieving 100% configuration parity across production, testing, and development environments",
+        "Built React Native dashboard for OMS team, visualizing deployment statuses and health across environments to improve deployment visibility and reduce error resolution time",
+        "Integrated all MCP tools with Slack for unified order issue debugging"
       ]
     },
     {
@@ -80,10 +82,11 @@
         "Managing corporate relationships and recruitment drives",
         "Organizing skill development workshops and training sessions"
       ]
-    },
+    }
+  ],
+  "campusInvolvement": [
     {
-      "id": 4,
-      "company": "Entrepreneurship Cell, RVCE",
+      "organization": "Entrepreneurship Cell, RVCE",
       "position": "Senior Associate",
       "duration": "Dec 2022 - July 2024",
       "location": "Bangalore, India",
@@ -92,20 +95,24 @@
         "Managed corporate partnerships and sponsorships",
         "Led team coordination and event management"
       ]
-    },
-    {
-      "id": 5,
-      "company": "ACM India Chapter",
-      "position": "Member",
-      "duration": "Aug 2024 - Present",
-      "location": "Bangalore, India",
-      "achievements": [
-        "Active participation in technical workshops and seminars",
-        "Contributing to research and development initiatives"
-      ]
     }
   ],
   "projects": [
+    {
+      "id": 0,
+      "title": "Realtime Reddit Hate Speech Detection System",
+      "description": "Full-stack data pipeline to detect, categorize, and visualize hate speech on Reddit in real time using advanced NLP techniques. Using Transformers models for multi-label classification, sentiment analysis, and complete ETL pipeline with Kafka and Elasticsearch",
+      "tech": ["NLP", "Transformers", "Kafka", "Docker", "FastAPI", "Elasticsearch"],
+      "duration": "May 2025 - Jul 2025",
+      "organization": "RV College Of Engineering",
+      "github": "https://github.com/dinesh052/reddit-hate-speech",
+      "details": [
+        "Transformers-based NLP models for multi-label classification",
+        "Sentiment analysis using fine-tuned models",
+        "ETL pipeline using Kafka and Elasticsearch",
+        "FastAPI dashboard for live analytics"
+      ]
+    },
     {
       "id": 1,
       "title": "GovBuild: No-Code Service Builder",
@@ -113,7 +120,7 @@
       "tech": ["TOGAF", "Enterprise Architecture", "AI Integration", "Government APIs"],
       "duration": "Apr 2025 - Jun 2025",
       "mentor": "Laurence Berry (Komo, UK)",
-      "github": "https://github.com/Dinesh052/govbuild"
+      "github": "https://github.com/dinesh052/govbuild"
     },
     {
       "id": 2,
@@ -122,7 +129,7 @@
       "tech": ["Computer Vision", "Transformers", "Jetson", "Unreal Engine", "AirSim"],
       "duration": "July 2024 - Dec 2024",
       "achievement": "All India First Place - Smart India Hackathon 2024",
-      "github": "https://github.com/Dinesh052/sar-drones"
+      "github": "https://github.com/dinesh052/sar-drones"
     },
     {
       "id": 3,
@@ -130,7 +137,7 @@
       "description": "AI-powered educational chatbot with personalized learning capabilities and user research validation",
       "tech": ["Palm API", "Natural Language Processing", "User Research", "AI/ML"],
       "duration": "Feb 2024 - Apr 2024",
-      "github": "https://github.com/Dinesh052/study-chatbot"
+      "github": "https://github.com/dinesh052/study-chatbot"
     },
     {
       "id": 4,
@@ -138,7 +145,7 @@
       "description": "CNN-based model for automated brain tumor detection with secure Flask web interface",
       "tech": ["TensorFlow", "CNN", "Flask", "Medical Imaging", "Computer Vision"],
       "duration": "Jul 2023 - Sept 2023",
-      "github": "https://github.com/Dinesh052/brain-tumor-detection"
+      "github": "https://github.com/dinesh052/brain-tumor-detection"
     },
     {
       "id": 5,
@@ -146,7 +153,7 @@
       "description": "Computer vision system for infrastructure crack detection with automated notification system",
       "tech": ["OpenCV", "Computer Vision", "Image Processing", "Automation"],
       "duration": "July 2023 - Sept 2023",
-      "github": "https://github.com/Dinesh052/crack-detection"
+      "github": "https://github.com/dinesh052/crack-detection"
     }
   ],
   "education": {

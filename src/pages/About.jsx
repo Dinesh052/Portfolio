@@ -44,9 +44,10 @@ const About = () => {
       <StickyNote 
         color="blue" 
         rotation="-1.5deg" 
-        bottom="25%" 
-        left="8%" 
+        bottom="15%" 
+        right="12%" 
         width="200px"
+        singleTape={true}
       >
         Always learning something new
       </StickyNote>
@@ -155,6 +156,19 @@ const About = () => {
               <p className="duration">{position.duration} • {position.location}</p>
             </motion.div>
           ))}
+
+          {/* Add E-Cell entry here, no bullets */}
+          <motion.div 
+            className="card"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            <h3 className="company-name">Entrepreneurship Cell, RVCE</h3>
+            <p className="position">Senior Associate</p>
+            <p className="duration">Dec 2022 - July 2024 • Bangalore, India</p>
+            <p>Organized events with 4000+ footfall<br/>Managed corporate partnerships and sponsorships<br/>Led team coordination and event management</p>
+          </motion.div>
         </section>
       )}
     </motion.div>
